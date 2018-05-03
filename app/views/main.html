@@ -43,8 +43,6 @@
       <img class="map" ng-src="{{img.pic_url}}" class="demo-img" usemap="#ImgExam">
       <map name="ImgExam" style="position:relative">
           <area class="area" ng-click="showType(area.title)" style="outline: #000 solid 2px;"
-                fill: #100f0f82;
-                fill = "000000"
                 shape="rect" coords="{{area.coords.join()}}"
                 ng-repeat="area in img.maps"
                 ng-href="{{area.link_url || 'javascript:void(0)'}}"
