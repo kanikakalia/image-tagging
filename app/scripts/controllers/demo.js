@@ -12,8 +12,8 @@
 
         app.controller('DemoCtrl',['$scope', 'fileReader', function($scope,fileReader) {
 
-            $scope.imageSrc = "";
-            console.log($scope.imageSrc);
+            $scope.imageSrc = " ";
+            //console.log($scope.imageSrc);
 
 
             // ====== File Upload ==== //

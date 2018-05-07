@@ -299,4 +299,6 @@ body *:after {
   height: 400px !important;
   background-repeat: no-repeat;
   background-size: cover !important;
+  object-fit: cover;
+  object-position: top;
 }
